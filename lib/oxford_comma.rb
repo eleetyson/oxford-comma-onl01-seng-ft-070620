@@ -5,7 +5,7 @@ def oxford_comma(array)
       if index == array.size - 1
         arr << " and " + element
       else
-      
+
     else
       arr << element + ", "
     end

@@ -13,7 +13,7 @@ def oxford_comma(array)
       if index == array.size - 1
         arr << "and " + element
       else
-        arr << element
+        arr << element + ", "
       end
     end
   end

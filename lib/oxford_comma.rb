@@ -7,7 +7,7 @@ def oxford_comma(array)
       if 
         
       else
-      
+        arr < element
       end
     else
       arr << element + ", "

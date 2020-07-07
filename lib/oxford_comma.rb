@@ -12,6 +12,9 @@ def oxford_comma(array)
     else
       if index == array.size - 1
       arr << "and " + element
+      else
+        
+      end
     end
   end
   arr.join

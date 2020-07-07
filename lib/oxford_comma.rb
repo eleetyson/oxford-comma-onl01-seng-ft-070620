@@ -2,8 +2,7 @@ def oxford_comma(array)
   arr = []
   array.each_with_index do |element, index|
     if array.size == 1
-      if index == array.size - 1
-        arr << " and " + element
+        arr << element
       else
 
     else

@@ -4,8 +4,7 @@ def oxford_comma(array)
     if array.size == 1
         arr << element
     elsif array.size == 2
-      if 
-        index == array.size - 1
+      if index == array.size - 1
       else
         arr < element
       end

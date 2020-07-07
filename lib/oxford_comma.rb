@@ -10,7 +10,8 @@ def oxford_comma(array)
         arr < element
       end
     else
-      arr << element + ", "
+      if index == array.size - 1
+      arr << "and " + element
     end
   end
   arr.join
